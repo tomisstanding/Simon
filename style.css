@@ -1,0 +1,146 @@
+body {
+  background-color: lightgreen;
+}
+
+.page {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+.row-1 {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+}
+.row-2 {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+}
+nav {
+  background-color: rgba(1, 1, 1, 0.4);
+  width: 100%;
+  height: 10vh;
+}
+
+#start {
+  outline: none;
+  position: relative;
+  background-color: white;
+  height: 50px;
+  width: 100px;
+  margin-top: 40px;
+  margin-left: 50px;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 18px;
+  word-wrap: break-word;
+  border-radius: 15px 15px 15px 15px;
+}
+
+label {
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
+  padding-top: 6px;
+}
+
+#red {
+  outline: none;
+  position: relative;
+  right: 10px;
+  max-width: 100px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px 10px 10px 10px;
+  background-color: #ff5165;
+  opacity:0.3;
+  border-style: none;
+}
+
+#green {
+  outline: none;
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+  max-width: 200px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px 50px 10px 10px;
+  background-color: #51ff68;
+  opacity:0.3;
+  border-style: none;
+}
+
+#yellow {
+  outline: none;
+  position: relative;
+  left: 100px;
+  bottom: 90px;
+  max-width: 200px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px 10px 50px 10px;
+  background-color: #faff6d;
+  opacity: 0.3;
+  border-style: none;
+}
+
+#blue {
+  outline: none;
+  position: relative;
+  right: 10px;
+  top: 10px;
+  max-width: 200px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px 10px 10px 50px;
+  background-color: #3258ff;
+  opacity: 0.3;
+  border-style: none;
+}
+
+.opaque {
+  opacity:1 !important;
+}
+
+h2 {
+font-family: 'Bungee Shade', cursive;
+font-size: 50px;
+color: white;
+left: 80px;
+bottom: 25px;
+position: relative;
+}
+
+#gameOver {
+font-family: 'Bungee Shade', cursive;
+font-size: 50px;
+color: white;
+left: 15px;
+bottom: 25px;
+position: relative;
+}
+
+@media (max-width: 300px) {
+    h1 {
+      font-size: 20px;
+      display: inline-block;
+      padding-top: 15px;
+    }
+}
+
+
+
+
+
