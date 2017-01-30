@@ -92,11 +92,10 @@ buttons.on('click', function() {
       $('#level').html(level);
       counter = 0;
       runGame();
-
      }
     } else {
-      $('#gameOver').html('Game Over');
       $('#level').hide();
+      $('#gameOver').html('Game Over');
     }
   });
 
@@ -104,6 +103,5 @@ buttons.on('click', function() {
 //initiates our game once the player clicks on our game button
 
 $('#start').on('click', runGame);
-
 
 });
