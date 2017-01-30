@@ -39,7 +39,6 @@ var scored = function() {
 
 var runGame = function(roundNo) {
   round = roundNo + 1;
-  $('#gameOver').hide();
 
   sequence.push(getRandomColor());
   console.log(sequence);
